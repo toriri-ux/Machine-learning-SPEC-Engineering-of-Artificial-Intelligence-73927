@@ -1,0 +1,9 @@
+=== LABEL QUALITY CHECK REPORT ===
+
+1. Duplicate-Conflict Audit:
+   - Found 5 instance(s) of identical features with conflicting income labels.
+
+2. Manual Re-check Sample:
+   - Drew 50 random rows (saved to results/label_quality_sample_50.csv).
+   - Automated flagging found 0 row(s) with values outside standard data dictionary ranges (e.g., age < 17 or > 90, hours < 1 or > 99).
+   - These rows should be manually reviewed in the CSV for contextual impossibilities.
