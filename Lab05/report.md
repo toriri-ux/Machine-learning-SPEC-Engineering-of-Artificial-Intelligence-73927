@@ -1,0 +1,3 @@
+When Compilation Helps
+PyTorch compilation is most beneficial for large models that run repeatedly, as kernel fusion and graph optimisation reduce computational overhead and Python interpreter costs. However, it may provide little benefit for small models or those with dynamic control flow, because the initial compilation adds overhead. Non-contiguous tensors can also affect performance, depending on how they are processed.
+A tensor created from transpose or slice may become non-contiguous.
